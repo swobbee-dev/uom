@@ -103,7 +103,8 @@
 //!    the [Serde][serde] crate. Disabled by default.
 //!  * `defmt` -- Feature to make quantities loggable through the defmt framework. Uses the base 
 //!    units and dimension of a value to show the unit of it. The current implementation is heavy 
-//!    on the wire, so users may wish to log a value manually.
+//!    on the wire, so users may wish to log a value with an explicit unit through the systems
+//!    `QuantityArguments`.
 //!
 //! [si]: https://jcgm.bipm.org/vim/en/1.16.html
 //! [serde]: https://serde.rs/
