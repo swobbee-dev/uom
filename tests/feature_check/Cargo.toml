@@ -9,3 +9,4 @@ uom = { path = "../.." }
 [features]
 default = []
 serde = ["uom/serde"]
+defmt = ["uom/defmt"]
