@@ -227,7 +227,7 @@ pub extern crate serde;
 
 #[doc(hidden)]
 #[cfg(feature = "defmt")]
-pub extern crate defmt_crate as defmt;
+pub extern crate defmt;
 
 #[doc(hidden)]
 pub extern crate typenum;
